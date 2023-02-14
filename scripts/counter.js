@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
 function count() {
   counter++;
 
-  if (counter % 10 === 0) {
-    alert("Mouse would like to thank you for the food 🥙");
+  if (counter < 5 === 0) {
+    alert("SEAL would like to thank you for the food 🥙");
   }
 
   document.querySelector(".counter").innerHTML = counter;
