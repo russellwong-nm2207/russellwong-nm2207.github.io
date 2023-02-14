@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function count() {
   counter++;
 
-  if (counter < 5 === 0) {
+  if (counter % 5 === 0) {
     alert("SEAL would like to thank you for the food 🥙");
   }
 
