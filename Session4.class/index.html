@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html >
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <title>flexbox layout</title>
+        <script defer type="text/javascript" src="appscripts/main.js">
+        </script>
+		
+    </head>
+
+  <body id="bodyID">
+    
+    <div class="container">
+      <header class="header" id="headerID">
+        header
+      </header>
+
+      <!-- Replace <div> with <aside> if your content has one aside. For more than one, nest <aside> elements in the <div>. -->
+      <nav class="sidebar">
+        <p>NAV</p>
+        <ol>
+          <li > <a href="#top"> top</a> </li>
+          <li > <a href="#bottom"> bottom</a></li>
+        </ol>
+      </nav>
+
+      <!-- assign3: must have id to retreive from javascript -->
+      <article class="content" id="articleID">
+        <p>main</p>
+        <h2 id="top"> TOP</h2> <!-- assign3: must have id -->
+        <p class="contentpara"> <!-- assign3: must have class -->
+          <h1><font color = "blue">Part 1: Functions with no arguments and no return values</font></h1>
+          1.5	What happens when the page loads? Why?
+          <font color = "green"> The product of 5 and 6 is calculated in the console.</font>
+          <br>
+          1.6	What happens if you pasted the code after the function call, save, and then reload? Why? <font color = "green"> It still works, as long as the variables are defined before the console.log it should work.</font>
+          <br>
+          1.7	What happens when you try to pass it arguments? Why?
+          <font color = "green"> It still works (no errors) as JavaScript is an extremely flexible language.</font>
+          <br>
+        
+        <h2><font color = "blue">Part 1b: Functions with two arguments and no return value</font></h2>
+        1.10	Now, what happens when you call it without passing it arguments? Why?
+        <font color = "green">No errors.</font>
+        <br>
+        1.11	What happens when you call it with two arguments? Why?
+        <font color = "green">No errors.</font>
+        <br>
+        1.13	Now, what happens when you call it with two arguments? Why?
+        <font color = "green">No errors.</font>
+        
+        <h3><font color = "blue">Part 1c: Functions with two arguments and one return value</font></h3>
+        1.15	Modify the function definition by adding the line “return prod;” to the last line of the function, before the closing curly bracket.
+        <font color = "green"> No changes.</font>
+        <br>
+        1.16	If a function returns a value, we want to store it when we call the function. So, modify your function calls by assigning them to a variable, like “var answer = myFunction(5,6);”
+        <font color = "green">An additional line of the product of 5 and 6 is displayed in the console.</font>
+        <br>
+        1.17	Is this working as expected? Comment out the existing console.log statements, and create one to print the new variable you just defined (answer) to the console log.
+        <font color = "green">The 3 lines with the products of 5 and 6 disappears. The new console.log shows 1 line of the product of 5 and 6 In the console.</font>
+        <br>
+        1.18	What is the “return” statement doing?
+        <font color = "green">Stops the function and produces a return value.</font>
+        
+        <p class="contentpara"></p>
+        <p class="contentpara"></p>
+        <h2 id="bottom"> BOTTOM</h2>
+        
+        <p class="contentpara"></p>
+
+      </article>
+
+      <!-- Ditto the previous note about <aside>. -->
+      <aside class="sidebar aside" id="asideID"> <!-- assign3: must have id -->
+        <p>ASIDE</p>
+
+      </aside>
+
+      <footer class="footer">
+        footer
+      </footer>
+    </div>
+  
+
+  </body>
+</html>
+
